@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Elements with Default Values</title>
+</head>
+<body>
+  <h1>Form Elements with Default Values</h1>
+  <form>
+    <!-- Text Input -->
+    <label for="text-input">Text Input:</label>
+    <input type="text" id="text-input" name="text-input" value="Default Text"><br><br>
+
+    <!-- Password Input -->
+    <label for="password-input">Password Input:</label>
+    <input type="password" id="password-input" name="password-input" value="defaultPassword"><br><br>
+
+    <!-- Email Input -->
+    <label for="email-input">Email Input:</label>
+    <input type="email" id="email-input" name="email-input" value="example@domain.com"><br><br>
+
+    <!-- Number Input -->
+    <label for="number-input">Number Input:</label>
+    <input type="number" id="number-input" name="number-input" value="25"><br><br>
+
+    <!-- Date Input -->
+    <label for="date-input">Date Input:</label>
+    <input type="date" id="date-input" name="date-input" value="2023-10-15"><br><br>
+
+    <!-- Checkbox -->
+    <label for="checkbox-input">Checkbox Input:</label>
+    <input type="checkbox" id="checkbox-input" name="checkbox-input" checked><br><br>
+
+    <!-- Radio Buttons -->
+    <label>Radio Buttons:</label>
+    <input type="radio" id="radio1" name="radio-input" value="option1" checked>
+    <label for="radio1">Option 1</label>
+    <input type="radio" id="radio2" name="radio-input" value="option2">
+    <label for="radio2">Option 2</label><br><br>
+
+    <!-- Dropdown (Select) -->
+    <label for="dropdown">Dropdown:</label>
+    <select id="dropdown" name="dropdown">
+      <option value="option1">Option 1</option>
+      <option value="option2" selected>Option 2 (Default)</option>
+      <option value="option3">Option 3</option>
+    </select><br><br>
+
+    <!-- Textarea -->
+    <label for="textarea">Textarea:</label><br>
+    <textarea id="textarea" name="textarea" rows="4" cols="50">Default text in textarea.</textarea><br><br>
+
+    <!-- File Input -->
+    <label for="file-input">File Input:</label>
+    <input type="file" id="file-input" name="file-input"><br><br>
+
+    <!-- Color Input -->
+    <label for="color-input">Color Input:</label>
+    <input type="color" id="color-input" name="color-input" value="#ff0000"><br><br>
+
+    <!-- Range Input -->
+    <label for="range-input">Range Input:</label>
+    <input type="range" id="range-input" name="range-input" min="0" max="100" value="50"><br><br>
+
+    <!-- Submit Button -->
+    <input type="submit" value="Submit">
+  </form>
+</body>
+</html>
